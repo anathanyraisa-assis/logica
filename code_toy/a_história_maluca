@@ -1,0 +1,14 @@
+nome = input("História ")
+
+numero1 = (input("Digite o seu nome:"))
+numero2 = (input("Digite sua profissão"))
+numero3 = (input("Primeiro adjetivo"))
+numero4 = (input("Segundo adjetivo"))
+numero5 = (input("Primeira comida"))
+numero6 = (input("Segunda comida"))
+numero7 = (input("Um sentimento"))
+
+print(nome)
+resultado = numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero7
+
+print(f"{numero1} começou hoje o seu primeiro curso na Generation Brasil.\n Está cursando a formação em {numero2}\n Achou a sua turma muito {numero3} mas o instrutor era, no mínimo, {numero4}.  No almoço, comeu {numero5} e {numero6} enquanto revisava as suas anotações.\n Ao final do dia, sente-se {numero7} , mas tem a determinação de concluir a jornada.  ")
